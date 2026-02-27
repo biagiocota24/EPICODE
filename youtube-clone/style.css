@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+}
+
+#main{
+    width: 100%;
+}
+
+#content{
+    height: 100%;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon{
+    height: 10vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon ion-icon{
+    font-size: 2em;
+}
+
+.sidebar-icon p{
+    margin: 0;
+}
+
+#topbar{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 50%;
+}
+
+#search-wrapper{
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+#mic ion-icon{
+    font-size: 1.4em;
+    margin: 0 0.3em;
+    
+}
+
+#topbar-icons{
+    display: flex;
+    padding: 0 1.5em;
+}
+
+.topbar-icon{
+   font-size: 2em;
+   padding: 0 0.3em; 
+}
+
+#button{
+    font-size: 1em;
+}
+
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    width: 100vh;
+    margin: 0;
+}
+
+.box{
+    width: 30%;
+    padding-top: 5em;
+    
+}
+
+.thumb{
+    width: 100%;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.epicode-logo{
+    width: 15%;
+    height: 15%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+.title p {
+    margin: 0;
+}
+
+.title h4{
+    margin: 0;
+}
